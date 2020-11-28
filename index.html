@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Crypto Simple Calc Tool</title>
-  <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link id="Theme" rel="stylesheet" type="text/css"  href="css/style_dark.css">
   <link rel="stylesheet" type="text/css"  href="css/animate.css">
   <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -23,19 +23,21 @@
 <body onload="currencySelect()">
   <div id="btcwidget" class="btcwidget"></div>
 <div id="particles-js">
-
 </div>
-<div class="container">  <h1>A 101 calc to help you trade
+
+<div class="cssMode">
+  <i id="dark"  class="fas fa-moon"></i>
+  <i id="light" class="fas fa-sun"></i>
+</div>
+
+<div class="container">  
+  <h1>A 101 calc to help you trade</h1>
     <br>
-    <span style="font-size:11px;">(Crypto Simple Calc Tool)</span></h1>
+    <span style="font-size:11px;">(Crypto Simple Calc Tool)</span>
   </div>
   <div class="container">
-      <div class="content">
-
-
-
+<div class="content">
   <div class="inline-flex mob">
-
 <!-- Acquisition tool -->
           <div class="box">
             <h3>Acquisition</h3>
@@ -99,8 +101,8 @@
                   <li>
                     <div class="inline-flex">
                       <input id="feePct1" class="input" type="123e-5" placeholder=""input>
-                      <button id="btnFeeAdd">Add Fee</button>
-                  </div>
+                      <button id="btnFeeAdd" class="input">Add Fee</button>
+                    </div>
                 </li>
               </div>
 
@@ -113,7 +115,7 @@
                   <li>
                     <div class="inline-flex">
                       <input id="feePct2" class="input" type="123e-5" placeholder=""input>
-                      <button id="btnFeeRemove">Remove Fee</button>
+                      <button id="btnFeeRemove" class="input">Remove Fee</button>
                   </div>
                 </li>
               </div>
@@ -315,6 +317,7 @@
 
 
 </body>
+<script src="js/darkMode.js"></script>
 <script async src="js/btcwid.js"></script>
 <script src="js/simple_calc.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
