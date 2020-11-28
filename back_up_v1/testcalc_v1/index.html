@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crypto Simple Calc Tool</title>
+  <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+  <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
+</head>
+<body>
+  <div id="btcwidget" class="btcwidget"></div>
+<div id="particles-js">
+  <div class="container">
+      <div class="content">
+            <h1>A 101 calc to help you trade
+              <br>
+              <span style="font-size:12px;">(Crypto Simple Calc Tool)</span></h1>
+
+
+            <div class="box">
+                <div>
+                  <span><h3> Calculate your investment <br> per asset</h3></span>
+                  <br>
+
+                    <form>
+
+                        <div class="calc">
+                          <label for ="Amount">Acquisition amount</label>
+                          <br>
+                          <input id="aquisition" class="input" type="123e-5" placeholder=""></input>
+                        </div>
+
+                        <div class="calc">
+                          <label for ="Buy-Sell">Buy/Sell price </label>
+                          <br>
+                          <input id="BuySell" class="input" type="123e-5" placeholder=""></input>
+                        </div>
+
+
+                        <div class="calc">
+                          <label for ="Fee in pct">Fee %(expresion 0.01 for 1%)</label>
+                          <br>
+                          <input id="feePct" class="input" type="123e-5" placeholder=""></input>
+                        </div>
+
+
+                        <div class="calc">
+                          <label for ="Fee Amount">Total fee amount</label>
+                          <br>
+                          <div id="feeAmt" class="output" type="float" placeholder=""></div>
+                        </div>
+
+                        <div class="calc">
+                          <label for ="QTY">Total quantity of asset</label>
+                          <br>
+                          <div id="qty"  class="output" type="float" placeholder=""></div>
+                        </div>
+
+                        <div id="btnCalc" class="btn">Calc</div>
+                  </form>
+                </div>
+          </div>
+
+
+          <div class="box">
+              <div>
+                <span><h3> Calculate your Return on <br> Investment per Asset</h3></span>
+                <br>
+
+                  <form>
+
+                      <div class="calc">
+                        <label for ="holdings">Quantity of your holdings</label>
+                        <br>
+                        <input id="holdings" class="input" type="123e-5" placeholder=""input>
+                      </div>
+
+                      <div class="calc">
+                        <label for ="Buy-SellPrev">Initial Buy/Sell price</label>
+                        <br>
+                        <input id="BuySellPrev" class="input" type="123e-5" placeholder=""></input>
+                      </div>
+
+
+                      <div class="calc">
+                        <label for ="BuySellCurr">Current Buy/Sell market price</label>
+                        <br>
+                        <input id="BuySellCurr" class="input" type="123e-5" placeholder=""></input>
+                      </div>
+
+
+                      <div class="calc">
+                        <label for ="Roi">Return on investment</label>
+                        <br>
+                        <div id="Roi" class="output" type="float" placeholder=""></div>
+                      </div>
+
+                      <div class="calc">
+                        <label for ="blank"></label>
+                        <br>
+                        <div id="roiPct" class="output" type="" placeholder="">
+
+                        </div>
+                      </div>
+
+                      <div id="btnCalcRoi" class="btn">Calc</div>
+                </form>
+              </div>
+        </div>
+
+      </div>
+
+          <div class="footer">
+            <p> Made with <i class="fas fa-heart fa-xs"></i> by <span class="master">@CryptoKeyring <a href="https://twitter.com/CryptoKeyring" target="_blank"><i class="fab fa-twitter fa-xs"></i></a></span></p>
+            <p style="font-size: 9pt; color:#6C7A89;"> If this simple calc benefits you and somehow makes you come back again, would appreciate if you could donate a <i class="fas fa-coffee fa-md"></i></p>
+            <i class="fab fa-bitcoin"></i>
+            <p style="font-size: 9pt; color:#6C7A89;">BTC: 121QKEihzFcEmgn3Ta7QyckXZ2dcMrfRU2</p>
+            <p style="font-size: 9pt; color:#6C7A89;">LTC: LQFighqXiZ22JAujyKeSUdyWd7b1RDrngi</p>
+            <p style="font-size: 9pt; color:#6C7A89;">DASH: XxdNBDr9LBYfhE5aYk9bhUnznd3ugErLz1</p>
+          </div>
+
+  </div>
+
+
+</div>
+
+
+</body>
+<script async src="js/btcwid.js"></script>
+<script src="js/simple_calc.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+  particlesJS.load('particles-js', 'particles.json', function(){
+    console.log('particles.json loaded...');
+  });
+</script>
+
+</html>

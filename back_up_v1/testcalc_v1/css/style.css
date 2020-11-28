@@ -1,0 +1,233 @@
+body {
+  /* box-shadow: 0; */
+  background: #2c3e50;
+  font-family: 'Ubuntu Mono';font-size: 22px;
+  color: #ecf0f1;
+  }
+
+h1 {
+  color: rgba(255, 99, 132, 1);
+  background: rgba(54, 62, 80, 0.7);
+  padding: 20px;
+}
+
+h3 {
+  color:  #A2DED0;
+}
+
+p{
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+.btcwidget {
+font-size: 18px;
+position: absolute;
+right: 10px;
+background: rgba(54, 62, 80, 0.9);
+padding: 20px;
+}
+
+#particles-js {
+  height:100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-attachment: fixed;
+}
+
+.container {
+position: absolute;
+top: 5%
+}
+
+.content {
+  padding: 20px;
+  justify-content: space-around;
+  margin: 0;
+}
+
+
+.box  {
+  background:  rgba(54, 62, 80, 0.9);
+  width: auto;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.box-container {
+  width: auto;
+}
+
+
+form {
+  margin-bottom: 40px;
+}
+
+span {
+  margin: 20px;
+}
+
+.calc {
+  text-align: justify;
+  padding: 0.3px;
+  width: auto;
+  color: #
+}
+
+.master {
+  color: #2ECC71;
+}
+
+.fa-heart {
+  color: #c0392b;
+}
+
+.fa-twitter {
+  color: #3498db;
+}
+
+
+input .input {
+  caret-color: #c0392b;
+}
+
+input:focus {
+  outline: none;
+
+}
+
+.input {
+  border: 0px;
+  padding: 5px 0;
+  background: #fff;
+  width: 80%;
+  height: 30px;
+  padding: 4px 8px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.output {
+  border: 0px;
+  padding: 5px 0;
+  background: #fff;
+  width: 80%;
+  height: 30px;
+  padding: 4px 8px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.output-placeholder {
+  border: 0px;
+  padding: 5px 0;
+  background: #2c3e50;
+  width: 80%;
+  height: 30px;
+  padding: 4px 8px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 17px;
+  opacity: 0;
+}
+
+.fa-sort-down, .fa-sort-up  {
+  font-size: 33px;
+  padding-bottom: 2px;
+}
+
+
+.btn {
+  margin-top: 20px;
+  background: #ecf0f1;
+  width: 50px;
+  padding: 5px 0;
+  color: #2c3e50;
+}
+
+.btn:hover {
+  background: #F9BF3B;
+  border: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+
+.footer {
+  /* background: rgba(54, 62, 80, 0.7); */
+}
+
+
+.fa-coffee {
+  color: #EB974E;
+  padding: 4px;
+}
+
+.fa-bitcoin {
+  color: #F5AB35;
+  padding: 4px;
+  font-size: 20px;
+}
+
+
+@media not screen and (min-width: 480px) {
+
+
+
+  #particles-js {
+    height:200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-attachment: fixed;
+  }
+
+  .box  {
+    display: block;
+    margin-bottom: 40px;
+
+  }
+
+
+
+  .input {
+    border: 0px;
+    padding: 5px 0;
+    background: #fff;
+    width: 80%;
+    height: 30px;
+    padding: 4px 8px;
+
+  }
+
+
+.btn  {
+    margin-bottom: 20px;
+    background: #ecf0f1;
+    width: 50px;
+    padding: 5px 0;
+    color: #2c3e50;
+    width: 100px;
+
+  }
+
+.btn:hover {
+    background: #F9BF3B;
+    border: none;
+    color: #2c3e50;
+    cursor: pointer;
+  }
+
+
+
+
+}
