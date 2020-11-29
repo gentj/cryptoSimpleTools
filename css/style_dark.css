@@ -20,7 +20,7 @@ body {
 h1 {
   border-radius: 3px;
   /* padding: 20px; */
-  color: #8d8d91;
+  color: #aeaeb3;
   /* background:  */
   border-radius: 20px;
   margin: 0;
@@ -28,13 +28,16 @@ h1 {
 }
 
 h3 {
-  color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  color: linear-gradient(-20deg, #aeaeb3 0%, #4e4376 100%);
   font-size: 14pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
   font-weight: lighter;
-  color: #626B7F;
+  color: #737b8d;
 }
 
 ul {
@@ -73,7 +76,7 @@ color: #ECF0F1;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(to right, #282E3B 0%, #1D2330 100%);
+  background-image: linear-gradient(to right, #1a1b1d 0%, #1D2330 100%);
   z-index: -1;
 }
 
@@ -266,7 +269,7 @@ input:focus {
   background: #1D2330;
   height: 30px;
   padding: 4px 8px;
-  color: #8d8d91;
+  color: #3d3d47;
   margin-right: 4px;
   font-size: 17px;
   min-width: 60px;
@@ -432,7 +435,10 @@ h1 {
   .box  {
     margin-bottom: 40px;
     width: auto;
+  }
 
+  .input{
+    height: 40px;
   }
 
   .start-msg {

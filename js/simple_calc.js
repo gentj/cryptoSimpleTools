@@ -215,7 +215,7 @@ function calcRoi (){
 
     if(resultRoi < 0){
       document.getElementById("Roi").style.background="#D64541";
-      document.getElementById("Roi").style.color="#674172";
+      document.getElementById("Roi").style.color="#fff";
       document.getElementById("roiPct").style.color="#D64541";
 
       if(RoiPctChange > 500000000000) {
