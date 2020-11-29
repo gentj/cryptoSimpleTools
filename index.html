@@ -20,8 +20,7 @@
   <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
-<body onload="currencySelect()">
-  <div id="btcwidget" class="btcwidget"></div>
+<body >
 <div id="particles-js">
 </div>
 
@@ -29,6 +28,70 @@
   <i id="dark"  class="fas fa-moon"></i>
   <i id="light" class="fas fa-sun"></i>
 </div>
+
+
+<!-- Bitcoing price integration -->
+<div class="container">
+  <!-- crypto header -->
+  <div class=" btcPrcHeader">
+  <div style="height:40px; padding:0px; margin:0px; width: 100%;">
+    <iframe id="btcHeader"
+      src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=dark&pref_coin_id=1505&invert_hover="
+      width="100%"
+      height="36px"
+      scrolling="auto"
+      marginwidth="0"
+      marginheight="0"
+      frameborder="0"
+      border="0"
+      style="border:0;margin:0;padding:0;"
+    ></iframe>
+  </div>
+</div>
+
+<!-- btc chart -->
+<div class="btcChart">
+  <div style="height:540px; padding:0px; margin:0px; width: 100%;">
+    <iframe id="btcChart"
+      src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=859&pref_coin_id=1505"
+      width="100%"
+      height="500px"
+      scrolling="auto"
+      marginwidth="0"
+      marginheight="0"
+      frameborder="0"
+      border="0"
+      overflow="hidden"
+      style="border:0;margin:0;padding:0;line-height:14px;"
+    ></iframe>
+  </div>
+</div>
+
+
+  <!-- bitct rank tb -->
+  <div class="btcTab">
+    <div style="height:auto; padding:0px; margin:0px; width: 100%;">
+      <iframe id="btcTb"
+        src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=7&pref_coin_id=1505&graph=yes"
+        width="100%"
+        height="500px"
+        scrolling="auto"
+        marginwidth="0"
+        marginheight="0"
+        frameborder="0"
+        border="0"
+        style="border:0;margin:0;padding:0;"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+<!--  end of bitcoin price integration-->
+
+
+
 
 <div class="container">  
   <h1>A 101 calc to help you trade</h1>
@@ -78,7 +141,7 @@
                   </li>
                   <li>
                     <div class="inline-flex">
-                      <input id="BuySell" class="input" type="123e-5" placeholder=""input>
+                      <input id="BuySell" class="input" type="123e-5" placeholder="" input>
                       <select class="input" name="">
                         <option value="Buy">Buy</option>
                         <option value="Sell">Sell</option>
